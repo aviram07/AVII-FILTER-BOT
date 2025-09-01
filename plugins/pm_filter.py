@@ -1957,7 +1957,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('OWNER LINK 🔗', url="telegram.me/YT_Jagat")
+            InlineKeyboardButton('Owner id', url="telegram.me/YT_Jagat")
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -3286,5 +3286,6 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
+
 
 
